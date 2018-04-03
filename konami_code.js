@@ -7,5 +7,5 @@ function init() {
    if (key === code[index]){
      
    }
- }
+ });
 }

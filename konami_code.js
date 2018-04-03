@@ -3,10 +3,10 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 function init() {
  var index = 0
   document.body.addEventListener('keydown', function(events){
-    var key = parseInt(e.detail || e.which);
+    var key = parseInt(events.detail || events.which);
    if (key === code[index]){
      index++;
-    alert("Hurray!");
+    
      if(index === code.length){
        
        alert("Hurray!");

@@ -8,7 +8,7 @@ function init() {
      index++;
     
      if(index === code.length){
-       console.log("hello")
+       
        alert("Hurray!");
        index = 0;
      }
